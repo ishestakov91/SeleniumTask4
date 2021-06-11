@@ -1,0 +1,656 @@
+{
+  "uid" : "a0bacaac3e13a034",
+  "name" : "Заявка на страховку",
+  "title" : "Заявка на страховку",
+  "time" : {
+    "start" : 1623434231588,
+    "stop" : 1623434276051,
+    "duration" : 44463
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 40
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "9e93df040bc39f61",
+    "name" : "СберСтрахование",
+    "title" : "СберСтрахование"
+  },
+  "steps" : [ {
+    "name" : "Когда Выбран пункт меню Страхование",
+    "title" : "Когда Выбран пункт меню Страхование",
+    "time" : {
+      "start" : 1623434238170,
+      "stop" : 1623434239518,
+      "duration" : 1348
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectInsurance",
+      "title" : "Выполнено нажатие на меню Страхование",
+      "time" : {
+        "start" : 1623434239092,
+        "stop" : 1623434239516,
+        "duration" : 424
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выбран пункт меню Все программы",
+    "title" : "Когда Выбран пункт меню Все программы",
+    "time" : {
+      "start" : 1623434239519,
+      "stop" : 1623434246343,
+      "duration" : 6824
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectPrograms",
+      "title" : "Выбран пункт меню \"Все программы\"",
+      "time" : {
+        "start" : 1623434239522,
+        "stop" : 1623434246343,
+        "duration" : 6821
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Ждем 2 секунды",
+    "title" : "Тогда Ждем 2 секунды",
+    "time" : {
+      "start" : 1623434246344,
+      "stop" : 1623434248346,
+      "duration" : 2002
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Тогда На странице присутствует h3 заголовок Страхование для путешественников",
+    "title" : "Тогда На странице присутствует h3 заголовок Страхование для путешественников",
+    "time" : {
+      "start" : 1623434248347,
+      "stop" : 1623434248519,
+      "duration" : 172
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkLabelH3",
+      "title" : "На странице присутствует h3 заголовок \"Страхование для путешественников\"",
+      "time" : {
+        "start" : 1623434248349,
+        "stop" : 1623434248518,
+        "duration" : 169
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Страница прокручена до кнопки выбора опции Страхование для путешественников",
+    "title" : "Когда Страница прокручена до кнопки выбора опции Страхование для путешественников",
+    "time" : {
+      "start" : 1623434248520,
+      "stop" : 1623434249010,
+      "duration" : 490
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "scrollPageToButton",
+      "title" : "Страница прокручена до кнопки выбора опции \"Страхование для путешественников\"",
+      "time" : {
+        "start" : 1623434248521,
+        "stop" : 1623434249008,
+        "duration" : 487
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Нажата кнопка Страхование для путешественников - Оформить онлайн",
+    "title" : "Когда Нажата кнопка Страхование для путешественников - Оформить онлайн",
+    "time" : {
+      "start" : 1623434249011,
+      "stop" : 1623434257590,
+      "duration" : 8579
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "submitButton",
+      "title" : "Нажата кнопка \"Страхование для путешественников\" - \"Оформить онлайн\"",
+      "time" : {
+        "start" : 1623434249017,
+        "stop" : 1623434257590,
+        "duration" : 8573
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Страница прокручена до выбора опции страховой защиты",
+    "title" : "Когда Страница прокручена до выбора опции страховой защиты",
+    "time" : {
+      "start" : 1623434257590,
+      "stop" : 1623434257652,
+      "duration" : 62
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pageScrollToOption",
+      "title" : "Страница прокручена до выбора опции страховой защиты",
+      "time" : {
+        "start" : 1623434257591,
+        "stop" : 1623434257652,
+        "duration" : 61
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выбрана опция минимальной страховой защиты",
+    "title" : "Когда Выбрана опция минимальной страховой защиты",
+    "time" : {
+      "start" : 1623434257652,
+      "stop" : 1623434257896,
+      "duration" : 244
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMinInsurance",
+      "title" : "Выбрана опция минимальной страховой защиты",
+      "time" : {
+        "start" : 1623434257653,
+        "stop" : 1623434257896,
+        "duration" : 243
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Страница прокручена до кнопки Оформить",
+    "title" : "Когда Страница прокручена до кнопки Оформить",
+    "time" : {
+      "start" : 1623434257897,
+      "stop" : 1623434257925,
+      "duration" : 28
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pageScrollToPageBottom",
+      "title" : "Страница прокручена до кнопки Оформить",
+      "time" : {
+        "start" : 1623434257899,
+        "stop" : 1623434257925,
+        "duration" : 26
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Нажата кнопка Оформить",
+    "title" : "Тогда Нажата кнопка Оформить",
+    "time" : {
+      "start" : 1623434257925,
+      "stop" : 1623434258341,
+      "duration" : 416
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "applyMinInsurance",
+      "title" : "Нажата кнопка Оформить",
+      "time" : {
+        "start" : 1623434257927,
+        "stop" : 1623434258340,
+        "duration" : 413
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Ждем 5 секунд",
+    "title" : "Тогда Ждем 5 секунд",
+    "time" : {
+      "start" : 1623434258342,
+      "stop" : 1623434263347,
+      "duration" : 5005
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Когда Заполнение полей в форме:",
+    "title" : "Когда Заполнение полей в форме:",
+    "time" : {
+      "start" : 1623434263347,
+      "stop" : 1623434270916,
+      "duration" : 7569
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 12
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillFields[insuredLastName, Иванов]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434263369,
+        "stop" : 1623434264106,
+        "duration" : 737
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insuredFirstName, Иван]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434264109,
+        "stop" : 1623434264708,
+        "duration" : 599
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insuredBirthDate, 02061971]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434264708,
+        "stop" : 1623434265459,
+        "duration" : 751
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insurerLastName, Иванов]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434265461,
+        "stop" : 1623434266052,
+        "duration" : 591
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insurerFirstName, Иван]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434266053,
+        "stop" : 1623434266605,
+        "duration" : 552
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insurerMiddleName, Иванович]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434266608,
+        "stop" : 1623434267258,
+        "duration" : 650
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insurerBirthDate, 02061971]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434267258,
+        "stop" : 1623434268113,
+        "duration" : 855
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insurerGender, Мужской]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434268116,
+        "stop" : 1623434268448,
+        "duration" : 332
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insurerPassportSeries, 0316]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434268450,
+        "stop" : 1623434269019,
+        "duration" : 569
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insurerPassportNumber, 770378]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434269019,
+        "stop" : 1623434269499,
+        "duration" : 480
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insurerDocumentDate, 15062016]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434269501,
+        "stop" : 1623434270203,
+        "duration" : 702
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillFields[insurerDocumentIssue, ОВД г. Москва]",
+      "title" : "Заполнение полей в форме",
+      "time" : {
+        "start" : 1623434270206,
+        "stop" : 1623434270913,
+        "duration" : 707
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Проверка заполнения полей:",
+    "title" : "Тогда Проверка заполнения полей:",
+    "time" : {
+      "start" : 1623434270917,
+      "stop" : 1623434271839,
+      "duration" : 922
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkFields[{insuredLastName=Иванов, insuredFirstName=Иван, insuredBirthDate=02.06.1971, insurerLastName=Иванов, insurer...]",
+      "title" : "Проверка заполнения полей",
+      "time" : {
+        "start" : 1623434270921,
+        "stop" : 1623434271839,
+        "duration" : 918
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Ждем 2 секунды",
+    "title" : "Тогда Ждем 2 секунды",
+    "time" : {
+      "start" : 1623434271839,
+      "stop" : 1623434273846,
+      "duration" : 2007
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Тогда Отправка формы с данными",
+    "title" : "Тогда Отправка формы с данными",
+    "time" : {
+      "start" : 1623434273846,
+      "stop" : 1623434274246,
+      "duration" : 400
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectContinue",
+      "title" : "Отправка формы с данными",
+      "time" : {
+        "start" : 1623434273849,
+        "stop" : 1623434274245,
+        "duration" : 396
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Проверка предупреждений на странице:",
+    "title" : "Тогда Проверка предупреждений на странице:",
+    "time" : {
+      "start" : 1623434274249,
+      "stop" : 1623434274864,
+      "duration" : 615
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkWarnings[{warningMessageOne=Поле не заполнено., warningMessageTwo=Поле не заполнено., warningMessageThree=Поле не з...]",
+      "title" : "Проверка предупреждений на странице",
+      "time" : {
+        "start" : 1623434274252,
+        "stop" : 1623434274863,
+        "duration" : 611
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "СберСтрахование"
+  }, {
+    "name" : "suite-name",
+    "value" : "СберСтрахование"
+  }, {
+    "name" : "story",
+    "value" : "Заявка на страховку"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "IShestakov"
+  }, {
+    "name" : "thread",
+    "value" : "31424@IShestakov.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

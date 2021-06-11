@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "СберСтрахование",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "ff3cceac561f85c7",
+      "title" : "Заявка на страховку",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "a0bacaac3e13a034",
+        "name" : "Заявка на страховку",
+        "title" : "Заявка на страховку",
+        "time" : {
+          "start" : 1623434231588,
+          "stop" : 1623434276051,
+          "duration" : 44463
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

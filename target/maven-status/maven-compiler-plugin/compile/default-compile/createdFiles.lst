@@ -1,0 +1,12 @@
+my\company\autotests\pages\PersonPage.class
+my\company\autotests\pages\StorePageSecondTab.class
+my\company\autotests\steps\AllScenarioSteps.class
+my\company\autotests\pages\BasePage.class
+my\company\autotests\pages\ProgramPage.class
+my\company\autotests\pages\StorePageFirstTab.class
+my\company\autotests\steps\ProgramSteps.class
+my\company\autotests\steps\StoreSecondTabSteps.class
+my\company\autotests\steps\BaseSteps.class
+my\company\autotests\util\AllureReporter.class
+my\company\autotests\steps\PersonSteps.class
+my\company\autotests\steps\StoreFirstTabSteps.class

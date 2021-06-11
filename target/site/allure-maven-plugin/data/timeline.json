@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "IShestakov",
+    "threads" : [ {
+      "title" : "31424@IShestakov.main(1)",
+      "testCases" : [ {
+        "uid" : "a0bacaac3e13a034",
+        "name" : "Заявка на страховку",
+        "title" : "Заявка на страховку",
+        "time" : {
+          "start" : 1623434231588,
+          "stop" : 1623434276051,
+          "duration" : 44463
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
