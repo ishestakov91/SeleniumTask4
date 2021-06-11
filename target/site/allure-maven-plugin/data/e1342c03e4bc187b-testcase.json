@@ -1,11 +1,11 @@
 {
-  "uid" : "a0bacaac3e13a034",
+  "uid" : "e1342c03e4bc187b",
   "name" : "Заявка на страховку",
   "title" : "Заявка на страховку",
   "time" : {
-    "start" : 1623434231588,
-    "stop" : 1623434276051,
-    "duration" : 44463
+    "start" : 1623436072805,
+    "stop" : 1623436115682,
+    "duration" : 42877
   },
   "summary" : {
     "attachments" : 0,
@@ -19,7 +19,7 @@
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "9e93df040bc39f61",
+    "uid" : "382ecfb3f3f35dea",
     "name" : "СберСтрахование",
     "title" : "СберСтрахование"
   },
@@ -27,9 +27,9 @@
     "name" : "Когда Выбран пункт меню Страхование",
     "title" : "Когда Выбран пункт меню Страхование",
     "time" : {
-      "start" : 1623434238170,
-      "stop" : 1623434239518,
-      "duration" : 1348
+      "start" : 1623436081697,
+      "stop" : 1623436083065,
+      "duration" : 1368
     },
     "summary" : {
       "attachments" : 0,
@@ -41,9 +41,9 @@
       "name" : "selectInsurance",
       "title" : "Выполнено нажатие на меню Страхование",
       "time" : {
-        "start" : 1623434239092,
-        "stop" : 1623434239516,
-        "duration" : 424
+        "start" : 1623436082629,
+        "stop" : 1623436083063,
+        "duration" : 434
       },
       "summary" : {
         "attachments" : 0,
@@ -57,9 +57,9 @@
     "name" : "Когда Выбран пункт меню Все программы",
     "title" : "Когда Выбран пункт меню Все программы",
     "time" : {
-      "start" : 1623434239519,
-      "stop" : 1623434246343,
-      "duration" : 6824
+      "start" : 1623436083065,
+      "stop" : 1623436085381,
+      "duration" : 2316
     },
     "summary" : {
       "attachments" : 0,
@@ -71,9 +71,9 @@
       "name" : "selectPrograms",
       "title" : "Выбран пункт меню \"Все программы\"",
       "time" : {
-        "start" : 1623434239522,
-        "stop" : 1623434246343,
-        "duration" : 6821
+        "start" : 1623436083067,
+        "stop" : 1623436085380,
+        "duration" : 2313
       },
       "summary" : {
         "attachments" : 0,
@@ -87,9 +87,9 @@
     "name" : "Тогда Ждем 2 секунды",
     "title" : "Тогда Ждем 2 секунды",
     "time" : {
-      "start" : 1623434246344,
-      "stop" : 1623434248346,
-      "duration" : 2002
+      "start" : 1623436085382,
+      "stop" : 1623436087404,
+      "duration" : 2022
     },
     "summary" : {
       "attachments" : 0,
@@ -102,9 +102,9 @@
     "name" : "Тогда На странице присутствует h3 заголовок Страхование для путешественников",
     "title" : "Тогда На странице присутствует h3 заголовок Страхование для путешественников",
     "time" : {
-      "start" : 1623434248347,
-      "stop" : 1623434248519,
-      "duration" : 172
+      "start" : 1623436087404,
+      "stop" : 1623436087571,
+      "duration" : 167
     },
     "summary" : {
       "attachments" : 0,
@@ -116,9 +116,9 @@
       "name" : "checkLabelH3",
       "title" : "На странице присутствует h3 заголовок \"Страхование для путешественников\"",
       "time" : {
-        "start" : 1623434248349,
-        "stop" : 1623434248518,
-        "duration" : 169
+        "start" : 1623436087405,
+        "stop" : 1623436087571,
+        "duration" : 166
       },
       "summary" : {
         "attachments" : 0,
@@ -132,9 +132,9 @@
     "name" : "Когда Страница прокручена до кнопки выбора опции Страхование для путешественников",
     "title" : "Когда Страница прокручена до кнопки выбора опции Страхование для путешественников",
     "time" : {
-      "start" : 1623434248520,
-      "stop" : 1623434249010,
-      "duration" : 490
+      "start" : 1623436087571,
+      "stop" : 1623436087801,
+      "duration" : 230
     },
     "summary" : {
       "attachments" : 0,
@@ -146,9 +146,9 @@
       "name" : "scrollPageToButton",
       "title" : "Страница прокручена до кнопки выбора опции \"Страхование для путешественников\"",
       "time" : {
-        "start" : 1623434248521,
-        "stop" : 1623434249008,
-        "duration" : 487
+        "start" : 1623436087571,
+        "stop" : 1623436087801,
+        "duration" : 230
       },
       "summary" : {
         "attachments" : 0,
@@ -162,9 +162,9 @@
     "name" : "Когда Нажата кнопка Страхование для путешественников - Оформить онлайн",
     "title" : "Когда Нажата кнопка Страхование для путешественников - Оформить онлайн",
     "time" : {
-      "start" : 1623434249011,
-      "stop" : 1623434257590,
-      "duration" : 8579
+      "start" : 1623436087802,
+      "stop" : 1623436100479,
+      "duration" : 12677
     },
     "summary" : {
       "attachments" : 0,
@@ -176,9 +176,9 @@
       "name" : "submitButton",
       "title" : "Нажата кнопка \"Страхование для путешественников\" - \"Оформить онлайн\"",
       "time" : {
-        "start" : 1623434249017,
-        "stop" : 1623434257590,
-        "duration" : 8573
+        "start" : 1623436087803,
+        "stop" : 1623436100479,
+        "duration" : 12676
       },
       "summary" : {
         "attachments" : 0,
@@ -192,9 +192,9 @@
     "name" : "Когда Страница прокручена до выбора опции страховой защиты",
     "title" : "Когда Страница прокручена до выбора опции страховой защиты",
     "time" : {
-      "start" : 1623434257590,
-      "stop" : 1623434257652,
-      "duration" : 62
+      "start" : 1623436100481,
+      "stop" : 1623436100538,
+      "duration" : 57
     },
     "summary" : {
       "attachments" : 0,
@@ -206,9 +206,9 @@
       "name" : "pageScrollToOption",
       "title" : "Страница прокручена до выбора опции страховой защиты",
       "time" : {
-        "start" : 1623434257591,
-        "stop" : 1623434257652,
-        "duration" : 61
+        "start" : 1623436100481,
+        "stop" : 1623436100537,
+        "duration" : 56
       },
       "summary" : {
         "attachments" : 0,
@@ -222,9 +222,9 @@
     "name" : "Когда Выбрана опция минимальной страховой защиты",
     "title" : "Когда Выбрана опция минимальной страховой защиты",
     "time" : {
-      "start" : 1623434257652,
-      "stop" : 1623434257896,
-      "duration" : 244
+      "start" : 1623436100538,
+      "stop" : 1623436100698,
+      "duration" : 160
     },
     "summary" : {
       "attachments" : 0,
@@ -236,9 +236,9 @@
       "name" : "selectMinInsurance",
       "title" : "Выбрана опция минимальной страховой защиты",
       "time" : {
-        "start" : 1623434257653,
-        "stop" : 1623434257896,
-        "duration" : 243
+        "start" : 1623436100539,
+        "stop" : 1623436100697,
+        "duration" : 158
       },
       "summary" : {
         "attachments" : 0,
@@ -252,9 +252,9 @@
     "name" : "Когда Страница прокручена до кнопки Оформить",
     "title" : "Когда Страница прокручена до кнопки Оформить",
     "time" : {
-      "start" : 1623434257897,
-      "stop" : 1623434257925,
-      "duration" : 28
+      "start" : 1623436100698,
+      "stop" : 1623436100737,
+      "duration" : 39
     },
     "summary" : {
       "attachments" : 0,
@@ -266,9 +266,9 @@
       "name" : "pageScrollToPageBottom",
       "title" : "Страница прокручена до кнопки Оформить",
       "time" : {
-        "start" : 1623434257899,
-        "stop" : 1623434257925,
-        "duration" : 26
+        "start" : 1623436100699,
+        "stop" : 1623436100736,
+        "duration" : 37
       },
       "summary" : {
         "attachments" : 0,
@@ -282,9 +282,9 @@
     "name" : "Тогда Нажата кнопка Оформить",
     "title" : "Тогда Нажата кнопка Оформить",
     "time" : {
-      "start" : 1623434257925,
-      "stop" : 1623434258341,
-      "duration" : 416
+      "start" : 1623436100737,
+      "stop" : 1623436101034,
+      "duration" : 297
     },
     "summary" : {
       "attachments" : 0,
@@ -296,9 +296,9 @@
       "name" : "applyMinInsurance",
       "title" : "Нажата кнопка Оформить",
       "time" : {
-        "start" : 1623434257927,
-        "stop" : 1623434258340,
-        "duration" : 413
+        "start" : 1623436100737,
+        "stop" : 1623436101033,
+        "duration" : 296
       },
       "summary" : {
         "attachments" : 0,
@@ -312,9 +312,9 @@
     "name" : "Тогда Ждем 5 секунд",
     "title" : "Тогда Ждем 5 секунд",
     "time" : {
-      "start" : 1623434258342,
-      "stop" : 1623434263347,
-      "duration" : 5005
+      "start" : 1623436101035,
+      "stop" : 1623436106038,
+      "duration" : 5003
     },
     "summary" : {
       "attachments" : 0,
@@ -327,9 +327,9 @@
     "name" : "Когда Заполнение полей в форме:",
     "title" : "Когда Заполнение полей в форме:",
     "time" : {
-      "start" : 1623434263347,
-      "stop" : 1623434270916,
-      "duration" : 7569
+      "start" : 1623436106038,
+      "stop" : 1623436111223,
+      "duration" : 5185
     },
     "summary" : {
       "attachments" : 0,
@@ -341,9 +341,9 @@
       "name" : "fillFields[insuredLastName, Иванов]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434263369,
-        "stop" : 1623434264106,
-        "duration" : 737
+        "start" : 1623436106038,
+        "stop" : 1623436106630,
+        "duration" : 592
       },
       "summary" : {
         "attachments" : 0,
@@ -356,9 +356,9 @@
       "name" : "fillFields[insuredFirstName, Иван]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434264109,
-        "stop" : 1623434264708,
-        "duration" : 599
+        "start" : 1623436106630,
+        "stop" : 1623436106933,
+        "duration" : 303
       },
       "summary" : {
         "attachments" : 0,
@@ -371,9 +371,9 @@
       "name" : "fillFields[insuredBirthDate, 02061971]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434264708,
-        "stop" : 1623434265459,
-        "duration" : 751
+        "start" : 1623436106934,
+        "stop" : 1623436107765,
+        "duration" : 831
       },
       "summary" : {
         "attachments" : 0,
@@ -386,9 +386,9 @@
       "name" : "fillFields[insurerLastName, Иванов]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434265461,
-        "stop" : 1623434266052,
-        "duration" : 591
+        "start" : 1623436107766,
+        "stop" : 1623436108023,
+        "duration" : 257
       },
       "summary" : {
         "attachments" : 0,
@@ -401,9 +401,9 @@
       "name" : "fillFields[insurerFirstName, Иван]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434266053,
-        "stop" : 1623434266605,
-        "duration" : 552
+        "start" : 1623436108023,
+        "stop" : 1623436108362,
+        "duration" : 339
       },
       "summary" : {
         "attachments" : 0,
@@ -416,9 +416,9 @@
       "name" : "fillFields[insurerMiddleName, Иванович]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434266608,
-        "stop" : 1623434267258,
-        "duration" : 650
+        "start" : 1623436108362,
+        "stop" : 1623436108844,
+        "duration" : 482
       },
       "summary" : {
         "attachments" : 0,
@@ -431,9 +431,9 @@
       "name" : "fillFields[insurerBirthDate, 02061971]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434267258,
-        "stop" : 1623434268113,
-        "duration" : 855
+        "start" : 1623436108847,
+        "stop" : 1623436109360,
+        "duration" : 513
       },
       "summary" : {
         "attachments" : 0,
@@ -446,9 +446,9 @@
       "name" : "fillFields[insurerGender, Мужской]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434268116,
-        "stop" : 1623434268448,
-        "duration" : 332
+        "start" : 1623436109362,
+        "stop" : 1623436109537,
+        "duration" : 175
       },
       "summary" : {
         "attachments" : 0,
@@ -461,9 +461,9 @@
       "name" : "fillFields[insurerPassportSeries, 0316]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434268450,
-        "stop" : 1623434269019,
-        "duration" : 569
+        "start" : 1623436109539,
+        "stop" : 1623436109880,
+        "duration" : 341
       },
       "summary" : {
         "attachments" : 0,
@@ -476,9 +476,9 @@
       "name" : "fillFields[insurerPassportNumber, 770378]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434269019,
-        "stop" : 1623434269499,
-        "duration" : 480
+        "start" : 1623436109880,
+        "stop" : 1623436110328,
+        "duration" : 448
       },
       "summary" : {
         "attachments" : 0,
@@ -491,9 +491,9 @@
       "name" : "fillFields[insurerDocumentDate, 15062016]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434269501,
-        "stop" : 1623434270203,
-        "duration" : 702
+        "start" : 1623436110328,
+        "stop" : 1623436110901,
+        "duration" : 573
       },
       "summary" : {
         "attachments" : 0,
@@ -506,9 +506,9 @@
       "name" : "fillFields[insurerDocumentIssue, ОВД г. Москва]",
       "title" : "Заполнение полей в форме",
       "time" : {
-        "start" : 1623434270206,
-        "stop" : 1623434270913,
-        "duration" : 707
+        "start" : 1623436110901,
+        "stop" : 1623436111222,
+        "duration" : 321
       },
       "summary" : {
         "attachments" : 0,
@@ -522,9 +522,9 @@
     "name" : "Тогда Проверка заполнения полей:",
     "title" : "Тогда Проверка заполнения полей:",
     "time" : {
-      "start" : 1623434270917,
-      "stop" : 1623434271839,
-      "duration" : 922
+      "start" : 1623436111223,
+      "stop" : 1623436111938,
+      "duration" : 715
     },
     "summary" : {
       "attachments" : 0,
@@ -536,9 +536,9 @@
       "name" : "checkFields[{insuredLastName=Иванов, insuredFirstName=Иван, insuredBirthDate=02.06.1971, insurerLastName=Иванов, insurer...]",
       "title" : "Проверка заполнения полей",
       "time" : {
-        "start" : 1623434270921,
-        "stop" : 1623434271839,
-        "duration" : 918
+        "start" : 1623436111224,
+        "stop" : 1623436111938,
+        "duration" : 714
       },
       "summary" : {
         "attachments" : 0,
@@ -552,8 +552,8 @@
     "name" : "Тогда Ждем 2 секунды",
     "title" : "Тогда Ждем 2 секунды",
     "time" : {
-      "start" : 1623434271839,
-      "stop" : 1623434273846,
+      "start" : 1623436111938,
+      "stop" : 1623436113945,
       "duration" : 2007
     },
     "summary" : {
@@ -567,9 +567,9 @@
     "name" : "Тогда Отправка формы с данными",
     "title" : "Тогда Отправка формы с данными",
     "time" : {
-      "start" : 1623434273846,
-      "stop" : 1623434274246,
-      "duration" : 400
+      "start" : 1623436113945,
+      "stop" : 1623436114265,
+      "duration" : 320
     },
     "summary" : {
       "attachments" : 0,
@@ -581,9 +581,9 @@
       "name" : "selectContinue",
       "title" : "Отправка формы с данными",
       "time" : {
-        "start" : 1623434273849,
-        "stop" : 1623434274245,
-        "duration" : 396
+        "start" : 1623436113945,
+        "stop" : 1623436114264,
+        "duration" : 319
       },
       "summary" : {
         "attachments" : 0,
@@ -597,9 +597,9 @@
     "name" : "Тогда Проверка предупреждений на странице:",
     "title" : "Тогда Проверка предупреждений на странице:",
     "time" : {
-      "start" : 1623434274249,
-      "stop" : 1623434274864,
-      "duration" : 615
+      "start" : 1623436114268,
+      "stop" : 1623436114685,
+      "duration" : 417
     },
     "summary" : {
       "attachments" : 0,
@@ -611,9 +611,9 @@
       "name" : "checkWarnings[{warningMessageOne=Поле не заполнено., warningMessageTwo=Поле не заполнено., warningMessageThree=Поле не з...]",
       "title" : "Проверка предупреждений на странице",
       "time" : {
-        "start" : 1623434274252,
-        "stop" : 1623434274863,
-        "duration" : 611
+        "start" : 1623436114271,
+        "stop" : 1623436114685,
+        "duration" : 414
       },
       "summary" : {
         "attachments" : 0,
@@ -643,11 +643,11 @@
     "name" : "host",
     "value" : "IShestakov"
   }, {
-    "name" : "thread",
-    "value" : "31424@IShestakov.main(1)"
-  }, {
     "name" : "suite-title",
     "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "10516@IShestakov.main(1)"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"

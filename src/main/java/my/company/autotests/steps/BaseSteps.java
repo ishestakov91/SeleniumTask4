@@ -8,11 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import ru.yandex.qatools.allure.annotations.Attachment;
 
-import java.util.concurrent.TimeUnit;
-
-/**
- * Created by Maria on 06.05.2017.
- */
 public class BaseSteps {
 
     private static WebDriver driver;

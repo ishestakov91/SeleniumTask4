@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1623434231517" stop="1623434276059" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1623436072747" stop="1623436115720" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>СберСтрахование</name>
     <description type="text"></description>
     <test-cases>
-        <test-case start="1623434231588" stop="1623434276051" status="passed">
+        <test-case start="1623436072805" stop="1623436115682" status="passed">
             <name>Заявка на страховку</name>
             <title>Заявка на страховку</title>
             <description type="text"></description>
             <steps>
-                <step start="1623434238170" stop="1623434239518" status="passed">
+                <step start="1623436081697" stop="1623436083065" status="passed">
                     <name>Когда Выбран пункт меню Страхование</name>
                     <title>Когда Выбран пункт меню Страхование</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434239092" stop="1623434239516" status="passed">
+                        <step start="1623436082629" stop="1623436083063" status="passed">
                             <name>selectInsurance</name>
                             <title>Выполнено нажатие на меню Страхование</title>
                             <attachments/>
@@ -21,12 +21,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434239519" stop="1623434246343" status="passed">
+                <step start="1623436083065" stop="1623436085381" status="passed">
                     <name>Когда Выбран пункт меню Все программы</name>
                     <title>Когда Выбран пункт меню Все программы</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434239522" stop="1623434246343" status="passed">
+                        <step start="1623436083067" stop="1623436085380" status="passed">
                             <name>selectPrograms</name>
                             <title>Выбран пункт меню "Все программы"</title>
                             <attachments/>
@@ -34,18 +34,18 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434246344" stop="1623434248346" status="passed">
+                <step start="1623436085382" stop="1623436087404" status="passed">
                     <name>Тогда Ждем 2 секунды</name>
                     <title>Тогда Ждем 2 секунды</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1623434248347" stop="1623434248519" status="passed">
+                <step start="1623436087404" stop="1623436087571" status="passed">
                     <name>Тогда На странице присутствует h3 заголовок Страхование для путешественников</name>
                     <title>Тогда На странице присутствует h3 заголовок Страхование для путешественников</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434248349" stop="1623434248518" status="passed">
+                        <step start="1623436087405" stop="1623436087571" status="passed">
                             <name>checkLabelH3</name>
                             <title>На странице присутствует h3 заголовок "Страхование для путешественников"</title>
                             <attachments/>
@@ -53,12 +53,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434248520" stop="1623434249010" status="passed">
+                <step start="1623436087571" stop="1623436087801" status="passed">
                     <name>Когда Страница прокручена до кнопки выбора опции Страхование для путешественников</name>
                     <title>Когда Страница прокручена до кнопки выбора опции Страхование для путешественников</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434248521" stop="1623434249008" status="passed">
+                        <step start="1623436087571" stop="1623436087801" status="passed">
                             <name>scrollPageToButton</name>
                             <title>Страница прокручена до кнопки выбора опции "Страхование для путешественников"</title>
                             <attachments/>
@@ -66,12 +66,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434249011" stop="1623434257590" status="passed">
+                <step start="1623436087802" stop="1623436100479" status="passed">
                     <name>Когда Нажата кнопка Страхование для путешественников - Оформить онлайн</name>
                     <title>Когда Нажата кнопка Страхование для путешественников - Оформить онлайн</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434249017" stop="1623434257590" status="passed">
+                        <step start="1623436087803" stop="1623436100479" status="passed">
                             <name>submitButton</name>
                             <title>Нажата кнопка "Страхование для путешественников" - "Оформить онлайн"</title>
                             <attachments/>
@@ -79,12 +79,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434257590" stop="1623434257652" status="passed">
+                <step start="1623436100481" stop="1623436100538" status="passed">
                     <name>Когда Страница прокручена до выбора опции страховой защиты</name>
                     <title>Когда Страница прокручена до выбора опции страховой защиты</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434257591" stop="1623434257652" status="passed">
+                        <step start="1623436100481" stop="1623436100537" status="passed">
                             <name>pageScrollToOption</name>
                             <title>Страница прокручена до выбора опции страховой защиты</title>
                             <attachments/>
@@ -92,12 +92,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434257652" stop="1623434257896" status="passed">
+                <step start="1623436100538" stop="1623436100698" status="passed">
                     <name>Когда Выбрана опция минимальной страховой защиты</name>
                     <title>Когда Выбрана опция минимальной страховой защиты</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434257653" stop="1623434257896" status="passed">
+                        <step start="1623436100539" stop="1623436100697" status="passed">
                             <name>selectMinInsurance</name>
                             <title>Выбрана опция минимальной страховой защиты</title>
                             <attachments/>
@@ -105,12 +105,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434257897" stop="1623434257925" status="passed">
+                <step start="1623436100698" stop="1623436100737" status="passed">
                     <name>Когда Страница прокручена до кнопки Оформить</name>
                     <title>Когда Страница прокручена до кнопки Оформить</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434257899" stop="1623434257925" status="passed">
+                        <step start="1623436100699" stop="1623436100736" status="passed">
                             <name>pageScrollToPageBottom</name>
                             <title>Страница прокручена до кнопки Оформить</title>
                             <attachments/>
@@ -118,12 +118,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434257925" stop="1623434258341" status="passed">
+                <step start="1623436100737" stop="1623436101034" status="passed">
                     <name>Тогда Нажата кнопка Оформить</name>
                     <title>Тогда Нажата кнопка Оформить</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434257927" stop="1623434258340" status="passed">
+                        <step start="1623436100737" stop="1623436101033" status="passed">
                             <name>applyMinInsurance</name>
                             <title>Нажата кнопка Оформить</title>
                             <attachments/>
@@ -131,84 +131,84 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434258342" stop="1623434263347" status="passed">
+                <step start="1623436101035" stop="1623436106038" status="passed">
                     <name>Тогда Ждем 5 секунд</name>
                     <title>Тогда Ждем 5 секунд</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1623434263347" stop="1623434270916" status="passed">
+                <step start="1623436106038" stop="1623436111223" status="passed">
                     <name>Когда Заполнение полей в форме:</name>
                     <title>Когда Заполнение полей в форме:</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434263369" stop="1623434264106" status="passed">
+                        <step start="1623436106038" stop="1623436106630" status="passed">
                             <name>fillFields[insuredLastName, Иванов]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434264109" stop="1623434264708" status="passed">
+                        <step start="1623436106630" stop="1623436106933" status="passed">
                             <name>fillFields[insuredFirstName, Иван]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434264708" stop="1623434265459" status="passed">
+                        <step start="1623436106934" stop="1623436107765" status="passed">
                             <name>fillFields[insuredBirthDate, 02061971]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434265461" stop="1623434266052" status="passed">
+                        <step start="1623436107766" stop="1623436108023" status="passed">
                             <name>fillFields[insurerLastName, Иванов]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434266053" stop="1623434266605" status="passed">
+                        <step start="1623436108023" stop="1623436108362" status="passed">
                             <name>fillFields[insurerFirstName, Иван]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434266608" stop="1623434267258" status="passed">
+                        <step start="1623436108362" stop="1623436108844" status="passed">
                             <name>fillFields[insurerMiddleName, Иванович]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434267258" stop="1623434268113" status="passed">
+                        <step start="1623436108847" stop="1623436109360" status="passed">
                             <name>fillFields[insurerBirthDate, 02061971]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434268116" stop="1623434268448" status="passed">
+                        <step start="1623436109362" stop="1623436109537" status="passed">
                             <name>fillFields[insurerGender, Мужской]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434268450" stop="1623434269019" status="passed">
+                        <step start="1623436109539" stop="1623436109880" status="passed">
                             <name>fillFields[insurerPassportSeries, 0316]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434269019" stop="1623434269499" status="passed">
+                        <step start="1623436109880" stop="1623436110328" status="passed">
                             <name>fillFields[insurerPassportNumber, 770378]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434269501" stop="1623434270203" status="passed">
+                        <step start="1623436110328" stop="1623436110901" status="passed">
                             <name>fillFields[insurerDocumentDate, 15062016]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start="1623434270206" stop="1623434270913" status="passed">
+                        <step start="1623436110901" stop="1623436111222" status="passed">
                             <name>fillFields[insurerDocumentIssue, ОВД г. Москва]</name>
                             <title>Заполнение полей в форме</title>
                             <attachments/>
@@ -216,12 +216,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434270917" stop="1623434271839" status="passed">
+                <step start="1623436111223" stop="1623436111938" status="passed">
                     <name>Тогда Проверка заполнения полей:</name>
                     <title>Тогда Проверка заполнения полей:</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434270921" stop="1623434271839" status="passed">
+                        <step start="1623436111224" stop="1623436111938" status="passed">
                             <name>checkFields[{insuredLastName=Иванов, insuredFirstName=Иван, insuredBirthDate=02.06.1971, insurerLastName=Иванов, insurer...]</name>
                             <title>Проверка заполнения полей</title>
                             <attachments/>
@@ -229,18 +229,18 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434271839" stop="1623434273846" status="passed">
+                <step start="1623436111938" stop="1623436113945" status="passed">
                     <name>Тогда Ждем 2 секунды</name>
                     <title>Тогда Ждем 2 секунды</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1623434273846" stop="1623434274246" status="passed">
+                <step start="1623436113945" stop="1623436114265" status="passed">
                     <name>Тогда Отправка формы с данными</name>
                     <title>Тогда Отправка формы с данными</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434273849" stop="1623434274245" status="passed">
+                        <step start="1623436113945" stop="1623436114264" status="passed">
                             <name>selectContinue</name>
                             <title>Отправка формы с данными</title>
                             <attachments/>
@@ -248,12 +248,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1623434274249" stop="1623434274864" status="passed">
+                <step start="1623436114268" stop="1623436114685" status="passed">
                     <name>Тогда Проверка предупреждений на странице:</name>
                     <title>Тогда Проверка предупреждений на странице:</title>
                     <attachments/>
                     <steps>
-                        <step start="1623434274252" stop="1623434274863" status="passed">
+                        <step start="1623436114271" stop="1623436114685" status="passed">
                             <name>checkWarnings[{warningMessageOne=Поле не заполнено., warningMessageTwo=Поле не заполнено., warningMessageThree=Поле не з...]</name>
                             <title>Проверка предупреждений на странице</title>
                             <attachments/>
@@ -267,7 +267,7 @@
                 <label name="story" value="Заявка на страховку"/>
                 <label name="feature" value="СберСтрахование"/>
                 <label name="host" value="IShestakov"/>
-                <label name="thread" value="31424@IShestakov.main(1)"/>
+                <label name="thread" value="10516@IShestakov.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>

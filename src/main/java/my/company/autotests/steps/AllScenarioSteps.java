@@ -3,14 +3,6 @@ package my.company.autotests.steps;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import my.company.autotests.pages.PersonPage;
-import my.company.autotests.pages.ProgramPage;
-import my.company.autotests.pages.StorePageFirstTab;
-import my.company.autotests.pages.StorePageSecondTab;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import ru.yandex.qatools.allure.annotations.Step;
 
 import java.util.Map;
 

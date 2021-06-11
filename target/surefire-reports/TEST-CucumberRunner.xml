@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="47.701" tests="17" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="45.584" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2021.1.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,21 +63,21 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Когда Выбран пункт меню Страхование" classname="Сценарий: Заявка на страховку" time="0.009"/>
+  <testcase name="Когда Выбран пункт меню Страхование" classname="Сценарий: Заявка на страховку" time="0.006"/>
   <testcase name="Когда Выбран пункт меню Все программы" classname="Сценарий: Заявка на страховку" time="0"/>
-  <testcase name="Тогда Ждем 2 секунды" classname="Сценарий: Заявка на страховку" time="0.001"/>
+  <testcase name="Тогда Ждем 2 секунды" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Тогда Ждем 2 секунды" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Тогда На странице присутствует h3 заголовок Страхование для путешественников" classname="Сценарий: Заявка на страховку" time="0"/>
-  <testcase name="Когда Страница прокручена до кнопки выбора опции Страхование для путешественников" classname="Сценарий: Заявка на страховку" time="0.001"/>
+  <testcase name="Когда Страница прокручена до кнопки выбора опции Страхование для путешественников" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Когда Нажата кнопка Страхование для путешественников - Оформить онлайн" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Когда Страница прокручена до выбора опции страховой защиты" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Когда Выбрана опция минимальной страховой защиты" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Когда Страница прокручена до кнопки Оформить" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Тогда Нажата кнопка Оформить" classname="Сценарий: Заявка на страховку" time="0"/>
-  <testcase name="Тогда Ждем 5 секунд" classname="Сценарий: Заявка на страховку" time="0.001"/>
+  <testcase name="Тогда Ждем 5 секунд" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Когда Заполнение полей в форме:" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Тогда Проверка заполнения полей:" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Тогда Отправка формы с данными" classname="Сценарий: Заявка на страховку" time="0"/>
   <testcase name="Тогда Проверка предупреждений на странице:" classname="Сценарий: Заявка на страховку" time="0"/>
-  <testcase name="Сценарий: Заявка на страховку" classname="Сценарий: Заявка на страховку" time="1.193"/>
+  <testcase name="Сценарий: Заявка на страховку" classname="Сценарий: Заявка на страховку" time="1.05"/>
 </testsuite>
